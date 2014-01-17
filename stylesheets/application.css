@@ -1,0 +1,68 @@
+body { position: relative; background: #fff; margin: 0; padding: 0; color: #000; }
+
+p#separation {
+	background: #fee;
+	border: solid 1px #000;
+	color: #000;
+	font-size: 0.6em;
+	padding: 0.5em;
+}
+
+q { 
+  font-style:  italic; 
+  font-weight: bold;
+}
+
+div#links {
+	position: absolute; top: 81px; left: 0; width: 166px; 
+	/* height: 700px; */
+	font: 16px Verdana, sans-serif; z-index: 100;
+}
+div#links a {display: block; text-align: center; font: bold 1em sans-serif; 
+   padding: 5px 10px; margin: 0 0 1px; border-width: 0; 
+   text-decoration: none; color: #000; background: #fff;
+   /*
+ * border-right: 5px solid #505050;
+ * */
+}
+div#links ul li a:hover.selected, div#links a.selected { background: #ccc; }
+div#links ul li a:hover { background: #aaa; }
+
+div#links ul li a span {display: none;}
+div#links ul li a:hover span.description {display: block;
+   position: absolute; top: 160px; left: 0; width: 145px;
+   padding: 5px; margin: 10px; z-index: 100;
+   color: #000; background: #ccf;
+   font: 10px Verdana, sans-serif; text-align: center;}
+
+div#content {
+	position: absolute; top: 26px; left: 161px; right: 25px;
+	font: 1em Verdana, sans-serif; padding: 10px; 
+/* 
+	background: #fee; 
+	border: solid 1px #444; 
+*/
+}
+div#content p { font-size: 1.2em; margin: 0 1em 1em; line-height: 1.4em; }
+div#content h3 {margin-bottom: 0.25em;}
+
+h1 {margin: -9px -9px 0.5em; padding: 15px 0 5px; text-align: right; background: #fff; color: #667; letter-spacing: 0.5em; text-transform: lowercase; font: bold 25px sans-serif; height: 28px; vertical-align: middle; white-space: nowrap; }
+h2 { text-align: right; }
+dt { font-weight: bold; }
+dd {margin-bottom: 0.66em;}
+div#content a:link { color: #000; }
+div#content a:visited { color: #99a; text-decoration: none; }
+div#content a:link:hover { background-color: #fdd; color: #000; }
+div#content a:visited:hover { color: #cc0; }
+code, pre { font: 1em monospace; font-weight: bold; }
+
+ul#reviews    { line-height:   1.7em; }
+ul#reviews li { margin-bottom: 0.9em; }
+
+#avatar {
+	float: left; margin-bottom: 0.5em; margin-right: 1em; padding: 0.5em; height: 70px; width: 40px;
+}
+
+#out_campaign {
+	float: right; margin: 0.5em; padding: 0.5em; height: 122px; width: 143px;
+}

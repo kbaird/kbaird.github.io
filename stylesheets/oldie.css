@@ -1,0 +1,8 @@
+div#links ul li a {
+	margin-bottom: -1em;
+}
+
+div#links ul a.selected {
+	margin-bottom: 0em;
+}
+
